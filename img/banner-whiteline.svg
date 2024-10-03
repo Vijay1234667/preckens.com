@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 111 111">
+    <defs>
+        <path id="m1z6xngu9a" d="M0 0H111V111H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-217 -589) translate(215) translate(2 589)">
+                        <mask id="blikeywnab" fill="#fff">
+                            <use xlink:href="#m1z6xngu9a"/>
+                        </mask>
+                        <g fill="#DEDEDE" fill-opacity=".85" fill-rule="nonzero" mask="url(#blikeywnab)">
+                            <path d="M118.5.793l.707.707L1.5 119.207l-.707-.707L118.5.793zm9.5 0l.707.707L11 119.207l-.707-.707L128 .793zm10 0l.707.707L21 119.207l-.707-.707L138 .793zm10 0l.707.707L31 119.207l-.707-.707L148 .793zm10 0l.707.707L41 119.207l-.707-.707L158 .793zm10 0l.707.707L51 119.207l-.707-.707L168 .793zm10 0l.707.707L61 119.207l-.707-.707L178 .793zm10 0l.707.707L71 119.207l-.707-.707L188 .793zm10 0l.707.707L81 119.207l-.707-.707L198 .793zm10 0l.707.707L91 119.207l-.707-.707L208 .793zm10 0l.707.707L101 119.207l-.707-.707L218 .793zm10 0l.707.707L111 119.207l-.707-.707L228 .793zm10 0l.707.707L121 119.207l-.707-.707L238 .793z" transform="translate(-64 -5)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
