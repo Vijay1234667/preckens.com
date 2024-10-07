@@ -15,7 +15,7 @@
 <body>
     <!-- Header-Page- Start -->
     <header>
-        <nav class="navbar navbar-expand-md bg-secondaryColor ">
+        <nav class="navbar navbar-expand-lg bg-secondaryColor">
             <div class="container">
                 <a class="navbar-brand" href="index.html"><img class="img-fluid logo"
                         src="https://ik.imagekit.io/gku4adhog/pri-removebg-preview.png?updatedAt=1718169238523"
@@ -23,15 +23,32 @@
                 <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars text-white"></i><span class="navbar-toggler-icon"></span>
+                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    </ul>
-                    <form class="d-flex justify-content-center align-items-center">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <i class="fa-solid fa-bars text-white fs-2 ms-3"></i>
-                    </form>
+                <a class="btn  shadow-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <i class="fa-solid fa-bars text-white fs-2"></i>
+                </a>
+                <div class="offcanvas offcanvas-end bg-secondaryColor" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                        <button type="button" class=" text-white px-2 rounded fs-3 bg-danger" data-bs-dismiss="offcanvas"
+                            aria-label="Close">X</button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link text-white font-size-18 font-weight-600 " href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-white font-size-18 font-weight-600 " href="Category.html">Category</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-white font-size-18 font-weight-600 " href="Article.html">Article</a>
+                            </li>
+                          </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -52,13 +69,15 @@
                                                 class="text-dark">Top 5 auto
                                                 insurance
                                                 <span class="d-md-block">providers you can consider</a></span></h1>
-                                        <p class="mb-5">
+                                                <p class="mb-mb-5 mb-4">
                                             The auto insurance market is predominantly ruled by some reputed insurers.
-                                            The top 10 auto <span class="d-none  d-md-inline">insurance companies in the country take a big share of the pie by capturing around 72% of the market. When you..</span>
+                                            The top 10 auto <span class="d-none  d-md-inline">insurance companies in the
+                                                country take a big share of the pie by capturing around 72% of the
+                                                market. When you..</span>
                                         </p>
-                                        <div class="mb-5">
+                                        <div class="md-mb-5 mb-3">
                                             <a href="javascript:void(0)"
-                                                class="text-white bg-ternaryColor font-size-20 font-weight-700 py-3 px-5">
+                                                class="text-white bg-ternaryColor font-size-18 font-weight-700 py-md-3 py-2 px-4 px-md-5">
                                                 Read More
                                             </a>
                                         </div>
@@ -66,7 +85,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div>
-                                        <img class="img-fluid" src="./img/banner-slider1.jpg" alt="banner-slider1">
+                                        <img class="img-fluid mb-3" src="./img/banner-slider1.jpg" alt="banner-slider1">
                                     </div>
                                 </div>
                             </div>
@@ -77,23 +96,25 @@
                                     <div>
                                         <h1 class="font-weight-700 mb-2 mb-md-4"><a href="javascript:void(0)"
                                                 class="text-dark">Top high-end electric cars
-                                                <span class="d-md-block">you should check out</a></span></h1>
-                                        <p class="mb-5">
+                                                <span>you should check out</a></span></h1>
+                                                <p class="mb-mb-5 mb-4">
                                             Electric vehicles may be expensive as compared to those powered by gas, but
-                                            these cars offer much more value for money. <span class="d-none  d-md-inline">They offer tax incentives and
-                                                are easier to maintain, and not to mention, the environment thanks you for
+                                            these cars... <span
+                                                class="d-none  d-md-inline">They offer tax incentives and
+                                                are easier to maintain, and not to mention, the environment thanks you
+                                                for
                                                 using these cars instead of those that emit</span>
                                         </p>
-                                        <div class="mb-5">
+                                        <div class="md-mb-5 mb-3">
                                             <a href="javascript:void(0)"
-                                                class="text-white bg-ternaryColor font-size-20 font-weight-700 py-3 px-5">Read
+                                                class="text-white bg-ternaryColor font-size-18 font-weight-700 py-md-3 py-2 px-4 px-md-5">Read
                                                 More</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div>
-                                        <img class="img-fluid" src="./img/banner-slider2.jpg" alt="banner-slider2">
+                                        <img class="img-fluid mb-3" src="./img/banner-slider2.jpg" alt="banner-slider2">
                                     </div>
                                 </div>
                             </div>
@@ -104,24 +125,26 @@
                                     <div>
                                         <h1 class="font-weight-700 mb-2 mb-md-4"><a href="javascript:void(0)"
                                                 class="text-dark">TAll about the interiors and
-                                                <span class="d-md-block">exteriors of 2019 Toyota</a></span>
+                                                <span>exteriors of 2019 Toyota</a></span>
                                         </h1>
-                                        <p class="mb-5">
+                                        <p class="mb-mb-5 mb-4">
                                             The 2019 Toyota Highlander is a mid-sized SUV that packs a V6 engine, which
-                                            makes driving this car an efficient and adventurous experience. <span class="d-none  d-md-inline">It is a
-                                                comfortable car with luxurious interiors and a stylish design. One of the
+                                            makes driving this car.. <span
+                                                class="d-none  d-md-inline">It is a
+                                                comfortable car with luxurious interiors and a stylish design. One of
+                                                the
                                                 best things this SUV is that it comes with a range..</span>
                                         </p>
-                                        <div class="mb-5">
+                                        <div class="md-mb-5 mb-3">
                                             <a href="javascript:void(0)"
-                                                class="text-white bg-ternaryColor font-size-20 font-weight-700 py-3 px-5">Read
+                                                class="text-white bg-ternaryColor font-size-18 font-weight-700 py-md-3 py-2 px-4 px-md-5">Read
                                                 More</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div>
-                                        <img class="img-fluid" src="./img/banner-slider3.jpg" alt="banner-slider3">
+                                        <img class="img-fluid mb-3" src="./img/banner-slider3.jpg" alt="banner-slider3">
                                     </div>
                                 </div>
                             </div>
@@ -148,12 +171,17 @@
                                     <div class="row g-0">
                                         <div class="col-lg-4 col-md-3">
                                             <img src="./img/Interiors and exteriors of 2020 Toyota Tacoma.jpg"
-                                                class="img-fluid mb-3 mb-md-0 pe-md-3  w-100" alt="Interiors and exteriors of 2020 Toyota Tacoma">
+                                                class="img-fluid mb-3 mb-md-0 pe-lg-3 pe-md-4  w-100"
+                                                alt="Interiors and exteriors of 2020 Toyota Tacoma">
                                         </div>
-                                        <div class="col-lg-7 col-md-9 d-flex justify-content-center align-items-center ">
-                                            <div class="bg-greyColor p-3">
-                                                <h5 class="post-heading">Interiors and exteriors of 2020 Toyota Tacoma</h5>
-                                                <p class="post-text-paragraph">Fans of off-roading will often see the 2020 Toyota Tacoma as their number one choice and there’s a good reason for this. The mid-size truck can..
+                                        <div
+                                            class="col-lg-7 col-md-9 d-flex justify-content-center align-items-center ">
+                                            <div class="bg-greyColor p-3 p-lg-3 p-md-5">
+                                                <h5 class="post-heading">Interiors and exteriors of 2020 Toyota Tacoma
+                                                </h5>
+                                                <p class="post-text-paragraph">Fans of off-roading will often see the
+                                                    2020 Toyota Tacoma as their number one choice and there’s a good
+                                                    reason for this. The mid-size truck can..
                                                 </p>
                                             </div>
                                         </div>
@@ -170,12 +198,17 @@
                                     <div class="row g-0">
                                         <div class="col-lg-4 col-md-3">
                                             <img src="./img/Interior and exterior details of the 2020 Honda CRV.jpg"
-                                                class="img-fluid mb-3 mb-md-0 pe-md-3 w-100" alt="Interior and exterior details of the 2020 Honda CRV">
+                                                class="img-fluid mb-3 mb-md-0 pe-lg-3 pe-md-4 w-100"
+                                                alt="Interior and exterior details of the 2020 Honda CRV">
                                         </div>
-                                        <div class="col-lg-7 col-md-9 d-flex justify-content-center align-items-center ">
-                                            <div class="bg-greyColor p-3">
-                                                <h5 class="post-heading">Interior and exterior details of the 2020 Honda CRV</h5>
-                                                <p class="post-text-paragraph">The new 2020 Honda CRV is a sports SUV that combines luxury and power in one impressive package that everyone will covet. While the sleek 
+                                        <div
+                                            class="col-lg-7 col-md-9 d-flex justify-content-center align-items-center ">
+                                            <div class="bg-greyColor p-3 p-lg-3 p-md-5">
+                                                <h5 class="post-heading">Interior and exterior details of the 2020 Honda
+                                                    CRV</h5>
+                                                <p class="post-text-paragraph">The new 2020 Honda CRV is a sports SUV
+                                                    that combines luxury and power in one impressive package that
+                                                    everyone will covet. While the sleek
                                                 </p>
                                             </div>
                                         </div>
@@ -184,7 +217,7 @@
                             </div>
                         </a>
                     </div>
-                    
+
                     <div class="col-lg-6">
                         <a href="">
                             <div class="card  mb-4 border-0">
@@ -192,12 +225,16 @@
                                     <div class="row g-0">
                                         <div class="col-lg-4 col-md-3">
                                             <img src="./img/Top 3 luxury convertibles of 2020.jpg"
-                                                class="img-fluid mb-3 mb-md-0 pe-md-3 w-100" alt="Top 3 luxury convertibles of 2020">
+                                                class="img-fluid mb-3 mb-md-0 pe-lg-3 pe-md-4 w-100"
+                                                alt="Top 3 luxury convertibles of 2020">
                                         </div>
-                                        <div class="col-lg-7 col-md-9 d-flex justify-content-center align-items-center ">
-                                            <div class="bg-greyColor p-3">
+                                        <div
+                                            class="col-lg-7 col-md-9 d-flex justify-content-center align-items-center ">
+                                            <div class="bg-greyColor p-3 p-lg-3 p-md-5">
                                                 <h5 class="post-heading">Top 3 luxury convertibles of 2020</h5>
-                                                <p class="post-text-paragraph">Have you ever dreamt about cruising in a sun-drenched highway, with the wind gently caressing your face, and your hands fixed at the steering ..
+                                                <p class="post-text-paragraph">Have you ever dreamt about cruising in a
+                                                    sun-drenched highway, with the wind gently caressing your face, and
+                                                    your hands fixed at the steering ..
                                                 </p>
                                             </div>
                                         </div>
@@ -214,10 +251,12 @@
                                     <div class="row g-0">
                                         <div class="col-lg-4 col-md-3">
                                             <img src="./img/Top 4 small pickup trucks.jpg"
-                                                class="img-fluid mb-3 mb-md-0 pe-md-3 w-100" alt="Top 4 small pickup trucks">
+                                                class="img-fluid mb-3 mb-md-0 pe-lg-3 pe-md-4 w-100"
+                                                alt="Top 4 small pickup trucks">
                                         </div>
-                                        <div class="col-lg-7 col-md-9 d-flex justify-content-center align-items-center ">
-                                            <div class="bg-greyColor p-3">
+                                        <div
+                                            class="col-lg-7 col-md-9 d-flex justify-content-center align-items-center ">
+                                            <div class="bg-greyColor p-3 p-lg-3 p-md-5">
                                                 <h5 class="post-heading">Top 4 small pickup trucks</h5>
                                                 <p class="post-text-paragraph">NNN properties are known as triple net
                                                     lease
@@ -244,7 +283,7 @@
                     <h3 class="heading-element"><span>Popular</span> Topics</h3>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-4 mb-4">
+                    <div class="col-lg-3 col-md-4 mb-3 mb-md-4">
                         <a href="">
                             <div class="card">
                                 <div class="card-body">
@@ -253,7 +292,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-md-4 mb-4">
+                    <div class="col-lg-3 col-md-4 mb-3 mb-md-4">
                         <a href="">
                             <div class="card">
                                 <div class="card-body">
@@ -263,7 +302,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-md-4 mb-4">
+                    <div class="col-lg-3 col-md-4 mb-3 mb-md-4">
                         <a href="">
                             <div class="card">
                                 <div class="card-body">
@@ -272,7 +311,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-md-4 mb-4">
+                    <div class="col-lg-3 col-md-4 mb-3 mb-md-4">
                         <a href="">
                             <div class="card">
                                 <div class="card-body">
@@ -281,7 +320,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-md-4 mb-4">
+                    <div class="col-lg-3 col-md-4 mb-3 mb-md-4">
                         <a href="">
                             <div class="card">
                                 <div class="card-body">
@@ -290,16 +329,17 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-md-4 mb-4">
+                    <div class="col-lg-3 col-md-4 mb-3 mb-md-4">
                         <a href="">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="text-dark">Interior and exterior features of the 2020 Dodge Ram 2500..</h4>
+                                    <h4 class="text-dark">Interior and exterior features of the 2020 Dodge Ram 2500..
+                                    </h4>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="col-lg-3 col-md-6 mb-3 mb-md-4">
                         <a href="">
                             <div class="card">
                                 <div class="card-body">
@@ -308,7 +348,7 @@
                             </div>
                         </a>
                     </div>
-                   <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="col-lg-3 col-md-6 mb-3 mb-md-4">
                         <a href="">
                             <div class="card">
                                 <div class="card-body">
@@ -330,50 +370,51 @@
                     <h3 class="heading-element"><span>Top</span> Articles</h3>
                 </div>
                 <div class="top-articles-body-container">
-                    <div class="row mb-5">
+                    <div class="row mb-3 mb-lg-5">
                         <div class="col-md-5">
                             <a href="">
-                                <img class="img-fluid mb-3 mb-md-0" src="./img/4 tips to save money when buying tires.jpg"
-                                    alt="">
+                                <img class="img-fluid mb-3 mb-md-0"
+                                    src="./img/4 tips to save money when buying tires.jpg" alt="">
                             </a>
                         </div>
                         <div class="col-md-7 d-flex justify-content-center align-items-center ">
                             <div>
-                                <h2 class="mb-4"><a href=""
-                                        class="text-dark font-weight-700 font-size-30 text-capitalize">4 tips to save
+                                <h2 class="mb-2 mb-md-4"><a href="" class="text-dark">4 tips to save
                                         money when buying tires</a></h2>
                                 <p class="post-text-paragraph">Driving a car with safety and comfort requires you to
                                     have all of its parts in the best health, including the tires. Certainly, you
-                                    understand how important the tires are for the car to run smoothly on the road. So,
-                                    you need to keep them in the best shape, which requires regular maintenance and
-                                    changing them periodically. A good set of tires can be costly. The following tips
-                                    will help you reduce the price. Use</p>
+                                    understand how important the tires.. <span class="d-none d-lg-block">are for the car
+                                        to run smoothly on the road. So,
+                                        you need to keep them in the best shape, which requires regular maintenance and
+                                        changing them periodically. A good set of tires can be costly. The following
+                                        tips
+                                        will help you reduce the price. Use</span></p>
                                 <a href="" class="text-dark font-weight-600 font-size-18">Read More</a>
                             </div>
                         </div>
                     </div>
                     <div class="row justify-content-center text-center">
-                        <div class="col-md-2 mb-3 mb-md-0">
+                        <div class="col-lg-2 col-md-2 col-6 mb-3 mb-md-0">
                             <div class="image-overlay-body">
                                 <img class="img-fluid" src="./img/Top 5 providers for automated investments.jpg"
                                     alt="Top 5 providers for automated investments">
                             </div>
                         </div>
-                        <div class="col-md-2 mb-3 mb-md-0">
+                        <div class="col-lg-2 col-md-2 col-6 mb-3 mb-md-0">
                             <div class="image-overlay-body">
                                 <img class="img-fluid"
                                     src="./img/A look at some of the best free investment advisors.jpg"
                                     alt="Top 5 providers for automated investments">
                             </div>
                         </div>
-                        <div class="col-md-2 mb-3 mb-md-0">
+                        <div class="col-md-2 col-6 mb-3 mb-md-0">
                             <div class="image-overlay-body">
                                 <img class="img-fluid"
                                     src="./img/Top 5 retirement investment funds for your portfolio.jpg"
                                     alt="Top 5 providers for automated investments">
                             </div>
                         </div>
-                        <div class="col-md-2 mb-3 mb-md-0">
+                        <div class="col-md-2 col-6 mb-3 mb-md-0">
                             <div class="image-overlay-body">
                                 <img class="img-fluid" src="./img/6 top business credit card companies.jpg"
                                     alt="Top 5 providers for automated investments">
@@ -420,7 +461,7 @@
                         <a href="">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <h6 class="font-size-20 font-weight-700 text-dark">Marketing</h6>
+                                    <h6 class="font-size-20 font-weight-700 text-dark text-nowrap">Marketing</h6>
                                 </div>
                             </div>
                         </a>
@@ -455,7 +496,8 @@
                                     <div class="row g-0">
                                         <div class="col-md-3">
                                             <img src="./img/Top 6 NNN properties for sale in the country.jpg"
-                                                class="img-fluid mb-3 mb-md-0 pe-md-3 w-100" alt="Top 6 NNN properties for sale in the country">
+                                                class="img-fluid mb-3 mb-md-0 pe-md-3 w-100"
+                                                alt="Top 6 NNN properties for sale in the country">
                                         </div>
                                         <div class="col-md-9 d-flex justify-content-center align-items-center ">
                                             <div class="bg-greyColor p-3">
@@ -485,12 +527,19 @@
                                     <div class="row g-0">
                                         <div class="col-md-3">
                                             <img src="./img/6 high dividend ETF funds you can invest in.jpg"
-                                                class="img-fluid mb-3 mb-md-0 pe-md-3 w-100" alt="6 high dividend ETF funds you can invest in">
+                                                class="img-fluid mb-3 mb-md-0 pe-md-3 w-100"
+                                                alt="6 high dividend ETF funds you can invest in">
                                         </div>
                                         <div class="col-md-9 d-flex justify-content-center align-items-center ">
                                             <div class="bg-greyColor p-3">
-                                                <h5 class="post-heading">6 high dividend ETF funds you can invest in</h5>
-                                                <p class="post-text-paragraph">Before you search for the best dividend exchange-traded funds (ETFs), it is recommended you understand your needs and overall investment objectives. ETFs are hybrids of mutual funds and stocks. When you invest in the ETF, you purchase shares in the fund, which buys the underlying asset.  Here are six of the best high-dividend ETF funds:   Vanguard
+                                                <h5 class="post-heading">6 high dividend ETF funds you can invest in
+                                                </h5>
+                                                <p class="post-text-paragraph">Before you search for the best dividend
+                                                    exchange-traded funds (ETFs), it is recommended you understand your
+                                                    needs and overall investment objectives. ETFs are hybrids of mutual
+                                                    funds and stocks. When you invest in the ETF, you purchase shares in
+                                                    the fund, which buys the underlying asset. Here are six of the best
+                                                    high-dividend ETF funds: Vanguard
                                                 </p>
                                             </div>
                                         </div>
@@ -505,12 +554,18 @@
                                     <div class="row g-0">
                                         <div class="col-md-3">
                                             <img src="./img/Symptoms and causes of ADHD.jpg"
-                                                class="img-fluid mb-3 mb-md-0 pe-md-3 w-100" alt="Symptoms and causes of ADHD">
+                                                class="img-fluid mb-3 mb-md-0 pe-md-3 w-100"
+                                                alt="Symptoms and causes of ADHD">
                                         </div>
                                         <div class="col-md-9 d-flex justify-content-center align-items-center ">
                                             <div class="bg-greyColor p-3">
                                                 <h5 class="post-heading">Symptoms and causes of ADHD</h5>
-                                                <p class="post-text-paragraph">Attention-Deficit Hyperactivity Disorder (ADHD) is a condition mostly diagnosed in children, and its symptoms can continue well into adulthood. This disorder can result in hyperactivity, difficulty focusing, behavioral issues like frequent outbursts of anger and frustration, and inattentiveness. While this condition does not have a cure, the symptoms
+                                                <p class="post-text-paragraph">Attention-Deficit Hyperactivity Disorder
+                                                    (ADHD) is a condition mostly diagnosed in children, and its symptoms
+                                                    can continue well into adulthood. This disorder can result in
+                                                    hyperactivity, difficulty focusing, behavioral issues like frequent
+                                                    outbursts of anger and frustration, and inattentiveness. While this
+                                                    condition does not have a cure, the symptoms
                                                 </p>
                                             </div>
                                         </div>
@@ -525,12 +580,19 @@
                                     <div class="row g-0">
                                         <div class="col-md-3">
                                             <img src="./img/Reverse mortgage eligibility and its criteria.jpg"
-                                                class="img-fluid mb-3 mb-md-0 pe-md-3 w-100" alt="Reverse mortgage eligibility and its criteria">
+                                                class="img-fluid mb-3 mb-md-0 pe-md-3 w-100"
+                                                alt="Reverse mortgage eligibility and its criteria">
                                         </div>
                                         <div class="col-md-9 d-flex justify-content-center align-items-center ">
                                             <div class="bg-greyColor p-3">
-                                                <h5 class="post-heading">Reverse mortgage eligibility and its criteria</h5>
-                                                <p class="post-text-paragraph">As you approach retirement, most of your money has been invested in your home. A reverse mortgage is an excellent way to tap into your home’s equity. If you have paid off a home loan or have only a small amount to be paid, it is a good option to meet various financial goals.  Here are the criteria for reverse mortgage eligibility:   Personal criteria
+                                                <h5 class="post-heading">Reverse mortgage eligibility and its criteria
+                                                </h5>
+                                                <p class="post-text-paragraph">As you approach retirement, most of your
+                                                    money has been invested in your home. A reverse mortgage is an
+                                                    excellent way to tap into your home’s equity. If you have paid off a
+                                                    home loan or have only a small amount to be paid, it is a good
+                                                    option to meet various financial goals. Here are the criteria for
+                                                    reverse mortgage eligibility: Personal criteria
                                                 </p>
                                             </div>
                                         </div>
@@ -545,12 +607,20 @@
                                     <div class="row g-0">
                                         <div class="col-md-3">
                                             <img src="./img/Top 10 debt settlement companies to consider.jpg"
-                                                class="img-fluid mb-3 mb-md-0 pe-md-3 w-100" alt="Top 10 debt settlement companies to consider">
+                                                class="img-fluid mb-3 mb-md-0 pe-md-3 w-100"
+                                                alt="Top 10 debt settlement companies to consider">
                                         </div>
                                         <div class="col-md-9 d-flex justify-content-center align-items-center ">
                                             <div class="bg-greyColor p-3">
-                                                <h5 class="post-heading">Top 10 debt settlement companies to consider</h5>
-                                                <p class="post-text-paragraph">  A lot of people get stuck in debt due to many reasons. The interest rates keep adding up, taking a toll on an individual’s financial stability. In such a case, debt settlement can be quite helpful if you wish to settle a large amount. Here is a list of top 10 debt settlement companies that you can consider to help ease the burden off your shoulders. National Debt Relief  National
+                                                <h5 class="post-heading">Top 10 debt settlement companies to consider
+                                                </h5>
+                                                <p class="post-text-paragraph"> A lot of people get stuck in debt due to
+                                                    many reasons. The interest rates keep adding up, taking a toll on an
+                                                    individual’s financial stability. In such a case, debt settlement
+                                                    can be quite helpful if you wish to settle a large amount. Here is a
+                                                    list of top 10 debt settlement companies that you can consider to
+                                                    help ease the burden off your shoulders. National Debt Relief
+                                                    National
                                                 </p>
                                             </div>
                                         </div>
@@ -569,11 +639,12 @@
                             <div class="card  mb-4 border-0 border-bottom pb-3">
                                 <div class="card-body p-0">
                                     <div class="row">
-                                        <div class="col-3">
+                                        <div class="col-2 col-lg-3">
                                             <img class="img-fluid"
                                                 src="./img/Important things to know about addictions.jpg" alt="">
                                         </div>
-                                        <div class="col-8 d-flex justify-content-center align-items-center">
+                                        <div
+                                            class="col-8 col-md-4 col-lg-8 d-flex justify-content-center align-items-center">
                                             <h4 class="font-size-18 font-weight-700 text-dark">Important things to know
                                                 about addictions</h4>
                                         </div>
@@ -586,12 +657,15 @@
                             <div class="card  mb-4 border-0 border-bottom pb-3">
                                 <div class="card-body p-0">
                                     <div class="row">
-                                        <div class="col-3">
+                                        <div class="col-2 col-lg-3">
                                             <img class="img-fluid"
-                                                src="./img/Aging –  Its types, warning signs, symptoms, and risk factors.jpg" alt="Aging –  Its types, warning signs, symptoms, and risk factors">
+                                                src="./img/Aging –  Its types, warning signs, symptoms, and risk factors.jpg"
+                                                alt="Aging –  Its types, warning signs, symptoms, and risk factors">
                                         </div>
-                                        <div class="col-8 d-flex justify-content-center align-items-center">
-                                            <h4 class="font-size-18 font-weight-700 text-dark">Aging –  Its types, warning signs, symptoms, and risk factors</h4>
+                                        <div
+                                            class="col-8 col-md-4 col-lg-8 d-flex justify-content-center align-items-center">
+                                            <h4 class="font-size-18 font-weight-700 text-dark">Aging – Its types,
+                                                warning signs, symptoms, and risk factors</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -602,12 +676,14 @@
                             <div class="card  mb-4 border-0 border-bottom pb-3">
                                 <div class="card-body p-0">
                                     <div class="row">
-                                        <div class="col-3">
+                                        <div class="col-2 col-lg-3">
                                             <img class="img-fluid"
-                                                src="./img/Knowing the symptoms of common allergies and their risk factors.jpg" alt="Knowing the symptoms of common allergies and their risk factors">
+                                                src="./img/Knowing the symptoms of common allergies and their risk factors.jpg"
+                                                alt="Knowing the symptoms of common allergies and their risk factors">
                                         </div>
-                                        <div class="col-8 d-flex align-items-center">
-                                            <h4 class="font-size-18 font-weight-700 text-dark">Knowing the symptoms of common allergies and their risk factors</h4>
+                                        <div class="col-8 col-md-4 col-lg-8 d-flex align-items-center">
+                                            <h4 class="font-size-18 font-weight-700 text-dark">Knowing the symptoms of
+                                                common allergies and their risk factors</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -615,15 +691,16 @@
                         </a>
 
                         <a href="">
-                            <div class="card  mb-4 border-0 border-bottom pb-3">
+                            <div class="card  mb-4 border-0 ">
                                 <div class="card-body p-0">
                                     <div class="row">
-                                        <div class="col-3">
-                                            <img class="img-fluid"
-                                                src="./img/Understanding Alzheimer’s disease.jpg" alt="Understanding Alzheimer’s disease">
+                                        <div class="col-2 col-lg-3">
+                                            <img class="img-fluid" src="./img/Understanding Alzheimer’s disease.jpg"
+                                                alt="Understanding Alzheimer’s disease">
                                         </div>
-                                        <div class="col-8 d-flex align-items-center">
-                                            <h4 class="font-size-18 font-weight-700 text-dark">Understanding Alzheimer’s disease</h4>
+                                        <div class="col-8 col-md-4 col-lg-8 d-flex align-items-center">
+                                            <h4 class="font-size-18 font-weight-700 text-dark">Understanding Alzheimer’s
+                                                disease</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -637,28 +714,13 @@
                             <div class="card  mb-4 border-0 border-bottom pb-3">
                                 <div class="card-body p-0">
                                     <div class="row">
-                                        <div class="col-3">
-                                            <img class="img-fluid"
-                                                src="./img/A helpful overview on anemia.jpg" alt="A helpful overview on anemia">
+                                        <div class="col-2 col-lg-3">
+                                            <img class="img-fluid" src="./img/A helpful overview on anemia.jpg"
+                                                alt="A helpful overview on anemia">
                                         </div>
-                                        <div class="col-8 d-flex align-items-center">
-                                            <h4 class="font-size-18 font-weight-700 text-dark">A helpful overview on anemia</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="">
-                            <div class="card  mb-4 border-0 border-bottom pb-3">
-                                <div class="card-body p-0">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <img class="img-fluid"
-                                                src="./img/Arthritis – Types, signs and risk factors.jpg" alt="Arthritis – Types, signs and risk factors">
-                                        </div>
-                                        <div class="col-8 d-flex align-items-center">
-                                            <h4 class="font-size-18 font-weight-700 text-dark">Arthritis – Types, signs and risk factors</h4>
+                                        <div class="col-8 col-md-4 col-lg-8 d-flex align-items-center">
+                                            <h4 class="font-size-18 font-weight-700 text-dark">A helpful overview on
+                                                anemia</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -669,12 +731,32 @@
                             <div class="card  mb-4 border-0 border-bottom pb-3">
                                 <div class="card-body p-0">
                                     <div class="row">
-                                        <div class="col-3">
+                                        <div class="col-2 col-lg-3">
                                             <img class="img-fluid"
-                                                src="./img/Common blood disorders Symptoms, causes, and risk factors.jpg" alt="Common blood disorders – Symptoms, causes, and risk factors">
+                                                src="./img/Arthritis – Types, signs and risk factors.jpg"
+                                                alt="Arthritis – Types, signs and risk factors">
                                         </div>
-                                        <div class="col-8 d-flex align-items-center">
-                                            <h4 class="font-size-18 font-weight-700 text-dark">Common blood disorders – Symptoms, causes, and risk factors</h4>
+                                        <div class="col-8 col-md-4 col-lg-8 d-flex align-items-center">
+                                            <h4 class="font-size-18 font-weight-700 text-dark">Arthritis – Types, signs
+                                                and risk factors</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="">
+                            <div class="card  mb-4 border-0">
+                                <div class="card-body p-0">
+                                    <div class="row">
+                                        <div class="col-2 col-lg-3">
+                                            <img class="img-fluid"
+                                                src="./img/Common blood disorders Symptoms, causes, and risk factors.jpg"
+                                                alt="Common blood disorders – Symptoms, causes, and risk factors">
+                                        </div>
+                                        <div class="col-8 col-md-4 col-lg-8 d-flex align-items-center">
+                                            <h4 class="font-size-18 font-weight-700 text-dark">Common blood disorders –
+                                                Symptoms, causes, and risk factors</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -691,20 +773,21 @@
         <div class="container">
             <div class="row justify-content-between mb-3">
                 <div class="col-md-3">
-                    <img class="img-fluid"
-                        src="https://ik.imagekit.io/gku4adhog/pri-removebg-preview.png?updatedAt=1718169238523" alt="">
+                    <img class="img-fluid mb-3"
+                        src="https://ik.imagekit.io/gku4adhog/pri-removebg-preview.png?updatedAt=1718169238523"
+                        alt="logo">
                 </div>
                 <div class="col-md-7">
                     <h3 class="text-white mb-4">Quick Links</h3>
                     <ul class="p-0 d-flex justify-content-between">
                         <li>
-                            <a href="" class="text-white">About Us</a>
+                            <a href="javascript:void(0)" class="text-white">About Us</a>
                         </li>
                         <li>
-                            <a href="" class="text-white">Contact Us</a>
+                            <a href="javascript:void(0)" class="text-white">Contact Us</a>
                         </li>
                         <li>
-                            <a href="" class="text-white">Privacy Policy</a>
+                            <a href="javascript:void(0)" class="text-white">Privacy Policy</a>
                         </li>
                     </ul>
                 </div>
@@ -724,7 +807,7 @@
                 loop: true,
                 dots: false,
                 nav: true,
-                navText: ["<i class='fa fa-long-arrow-left'></i>","<i class='fa fa-long-arrow-right'></i>"],
+                navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
                 slideTransition: 'linear',
                 responsive: {
                     0: {
@@ -736,27 +819,27 @@
                         slideBy: 1,
                     }
                 },
-                onInitialized: updateNumbering, 
-                onChanged: updateNumbering 
+                onInitialized: updateNumbering,
+                onChanged: updateNumbering
             });
-    
+
             function updateNumbering(event) {
-                var totalItems = event.item.count; 
-                var currentIndex = event.item.index - event.relatedTarget._clones.length / 2; 
-    
+                var totalItems = event.item.count;
+                var currentIndex = event.item.index - event.relatedTarget._clones.length / 2;
+
                 if (currentIndex < 0) {
                     currentIndex = totalItems - 1;
                 } else if (currentIndex >= totalItems) {
                     currentIndex = 0;
                 }
-    
-                currentItem = currentIndex + 1; 
+
+                currentItem = currentIndex + 1;
                 $('#current-slide-number').text(currentItem + ' / ' + totalItems);
             }
         });
     </script>
-    
-    
+
+
 
 
 

@@ -13,23 +13,40 @@
 <body>
     <!-- Header-Page- Start -->
     <header>
-        <nav class="navbar navbar-expand-md bg-secondaryColor mb-2">
+        <nav class="navbar navbar-expand-lg bg-secondaryColor">
             <div class="container">
                 <a class="navbar-brand" href="index.html"><img class="img-fluid logo"
                         src="https://ik.imagekit.io/gku4adhog/pri-removebg-preview.png?updatedAt=1718169238523"
                         alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    </ul>
-                    <form class="d-flex justify-content-center align-items-center">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <i class="fa-solid fa-bars text-white fs-2 ms-3"></i>
-                    </form>
+                <a class="btn  shadow-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <i class="fa-solid fa-bars text-white fs-2"></i>
+                </a>
+                <div class="offcanvas offcanvas-end bg-secondaryColor" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                        <button type="button" class=" text-white px-2 rounded fs-3 bg-danger" data-bs-dismiss="offcanvas"
+                            aria-label="Close">X</button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link text-white font-size-18 font-weight-600 " href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-white font-size-18 font-weight-600 " href="Category.html">Category</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-white font-size-18 font-weight-600 " href="Article.html">Article</a>
+                            </li>
+                          </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -51,10 +68,10 @@
                       </nav>
                 </div>
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-lg-8 col-md-12">
                         <div>
-                            <h2 class="font-size-30 font-weight-500">Top 5 auto insurance providers you can consider</h2>
-                            <img class="img-fluid mb-4" src="/img/Top 5 auto insurance providers you can consider.jpg"
+                            <h2 class="font-size-30 article-main-heading font-weight-500">Top 5 auto insurance providers you can consider</h2>
+                            <img class="img-fluid mb-4" src="./img/Top 5 auto insurance providers you can consider.jpg"
                                 alt="">
                             <p class="article-details-content-p">
                                 The auto insurance market is predominantly ruled by some reputed insurers. The top 10
@@ -90,7 +107,6 @@
                             </p>
                         </div>
                     </div>
-
                     <div class="col-lg-4 col-md-12">
                         <div>
                             <h3 class="heading-element"><span>Most </span>Popular Categories</h3>
@@ -100,11 +116,11 @@
                             <div class="card  mb-4 border-0 border-bottom pb-3">
                                 <div class="card-body p-0">
                                     <div class="row">
-                                        <div class="col-3">
+                                        <div class="col-2 col-lg-3">
                                             <img class="img-fluid"
                                                 src="./img/Important things to know about addictions.jpg" alt="">
                                         </div>
-                                        <div class="col-8 d-flex justify-content-center align-items-center">
+                                        <div class="col-8 col-md-4 col-lg-8 d-flex justify-content-center align-items-center">
                                             <h4 class="font-size-18 font-weight-700 text-dark">Important things to know
                                                 about addictions</h4>
                                         </div>
@@ -117,11 +133,11 @@
                             <div class="card  mb-4 border-0 border-bottom pb-3">
                                 <div class="card-body p-0">
                                     <div class="row">
-                                        <div class="col-3">
+                                        <div class="col-2 col-lg-3">
                                             <img class="img-fluid"
                                                 src="./img/Aging –  Its types, warning signs, symptoms, and risk factors.jpg" alt="Aging –  Its types, warning signs, symptoms, and risk factors">
                                         </div>
-                                        <div class="col-8 d-flex justify-content-center align-items-center">
+                                        <div class="col-8 col-md-4 col-lg-8 d-flex justify-content-center align-items-center">
                                             <h4 class="font-size-18 font-weight-700 text-dark">Aging –  Its types, warning signs, symptoms, and risk factors</h4>
                                         </div>
                                     </div>
@@ -133,11 +149,11 @@
                             <div class="card  mb-4 border-0 border-bottom pb-3">
                                 <div class="card-body p-0">
                                     <div class="row">
-                                        <div class="col-3">
+                                        <div class="col-2 col-lg-3">
                                             <img class="img-fluid"
                                                 src="./img/Knowing the symptoms of common allergies and their risk factors.jpg" alt="Knowing the symptoms of common allergies and their risk factors">
                                         </div>
-                                        <div class="col-8 d-flex align-items-center">
+                                        <div class="col-8 col-md-4 col-lg-8 d-flex align-items-center">
                                             <h4 class="font-size-18 font-weight-700 text-dark">Knowing the symptoms of common allergies and their risk factors</h4>
                                         </div>
                                     </div>
@@ -146,14 +162,14 @@
                         </a>
 
                         <a href="">
-                            <div class="card  mb-4 border-0 border-bottom pb-3">
+                            <div class="card  mb-4 border-0 ">
                                 <div class="card-body p-0">
                                     <div class="row">
-                                        <div class="col-3">
+                                        <div class="col-2 col-lg-3">
                                             <img class="img-fluid"
                                                 src="./img/Understanding Alzheimer’s disease.jpg" alt="Understanding Alzheimer’s disease">
                                         </div>
-                                        <div class="col-8 d-flex align-items-center">
+                                        <div class="col-8 col-md-4 col-lg-8 d-flex align-items-center">
                                             <h4 class="font-size-18 font-weight-700 text-dark">Understanding Alzheimer’s disease</h4>
                                         </div>
                                     </div>
@@ -168,11 +184,11 @@
                             <div class="card  mb-4 border-0 border-bottom pb-3">
                                 <div class="card-body p-0">
                                     <div class="row">
-                                        <div class="col-3">
+                                        <div class="col-2 col-lg-3">
                                             <img class="img-fluid"
                                                 src="./img/A helpful overview on anemia.jpg" alt="A helpful overview on anemia">
                                         </div>
-                                        <div class="col-8 d-flex align-items-center">
+                                        <div class="col-8 col-md-4 col-lg-8 d-flex align-items-center">
                                             <h4 class="font-size-18 font-weight-700 text-dark">A helpful overview on anemia</h4>
                                         </div>
                                     </div>
@@ -184,11 +200,11 @@
                             <div class="card  mb-4 border-0 border-bottom pb-3">
                                 <div class="card-body p-0">
                                     <div class="row">
-                                        <div class="col-3">
+                                        <div class="col-2 col-lg-3">
                                             <img class="img-fluid"
                                                 src="./img/Arthritis – Types, signs and risk factors.jpg" alt="Arthritis – Types, signs and risk factors">
                                         </div>
-                                        <div class="col-8 d-flex align-items-center">
+                                        <div class="col-8 col-md-4 col-lg-8 d-flex align-items-center">
                                             <h4 class="font-size-18 font-weight-700 text-dark">Arthritis – Types, signs and risk factors</h4>
                                         </div>
                                     </div>
@@ -197,14 +213,14 @@
                         </a>
 
                         <a href="">
-                            <div class="card  mb-4 border-0 border-bottom pb-3">
+                            <div class="card  mb-4 border-0">
                                 <div class="card-body p-0">
                                     <div class="row">
-                                        <div class="col-3">
+                                        <div class="col-2 col-lg-3">
                                             <img class="img-fluid"
                                                 src="./img/Common blood disorders Symptoms, causes, and risk factors.jpg" alt="Common blood disorders – Symptoms, causes, and risk factors">
                                         </div>
-                                        <div class="col-8 d-flex align-items-center">
+                                        <div class="col-8 col-md-4 col-lg-8 d-flex align-items-center">
                                             <h4 class="font-size-18 font-weight-700 text-dark">Common blood disorders – Symptoms, causes, and risk factors</h4>
                                         </div>
                                     </div>
@@ -231,13 +247,13 @@
                     <h3 class="text-white mb-4">Quick Links</h3>
                     <ul class="p-0 d-flex justify-content-between">
                         <li>
-                            <a href="" class="text-white">About Us</a>
+                            <a href="javascript:void(0)" class="text-white">About Us</a>
                         </li>
                         <li>
-                            <a href="" class="text-white">Contact Us</a>
+                            <a href="javascript:void(0)" class="text-white">Contact Us</a>
                         </li>
                         <li>
-                            <a href="" class="text-white">Privacy Policy</a>
+                            <a href="javascript:void(0)" class="text-white">Privacy Policy</a>
                         </li>
                     </ul>
                 </div>
