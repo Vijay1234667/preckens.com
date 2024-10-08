@@ -172,6 +172,17 @@ button {
   font-weight: 400;
 }
 
+
+.text-ellipsis{
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+
 /* Navigation-Section */
 .logo {
   height: 40px;
