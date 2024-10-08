@@ -411,6 +411,15 @@ button {
     font-size: 27px;
     margin: 0 0 27px 0;
 }
+
+.text-ellipsis{
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
 .top-articles-body-container h2 {
   font-size: 27px;
 }
