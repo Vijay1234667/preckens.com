@@ -155,11 +155,12 @@ button {
   color: var(--secondaryColor);
 }
 .post-text-paragraph {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--lightgreyColor);
 }
 .post-heading {
   font-weight: 700;
+  font-size: 19px;
   color: var(--darkColor);
 }
 .post-heading:hover {
@@ -192,7 +193,7 @@ button {
 .banner-section {
   height: 100%;
   width: 100%;
-  padding: 40px 0px 0px;
+  padding: 36px 0px 0px;
   position: relative;
 }
 .banner-section::before {
@@ -311,7 +312,7 @@ button {
 .owl-nav {
   display: flex;
   justify-content: space-evenly;
-  font-size: 30px;
+  font-size: 23px;
   color: black;
   align-items: center;
 }
@@ -410,15 +411,6 @@ button {
   .heading-element {
     font-size: 27px;
     margin: 0 0 27px 0;
-}
-
-.text-ellipsis{
-  -webkit-line-clamp: 3;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  white-space: normal;
 }
 .top-articles-body-container h2 {
   font-size: 27px;
