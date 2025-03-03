@@ -183,6 +183,15 @@ button {
   white-space: normal;
 }
 
+.categories-post-ellipsis{
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
 
 /* Navigation-Section */
 .logo {
@@ -350,6 +359,9 @@ button {
     font-size: 27px;
     margin: 0 0 27px 0;
 }
+.footer-section h4{
+  text-align: center;
+}
 
   /*  */
   .top-articles-section{
@@ -373,9 +385,7 @@ button {
   .footer-section {
     padding: 15px 0px 10px;
 }
-
 }
-
 
 .navbar-expand-lg .navbar-nav {
   flex-direction: column;
